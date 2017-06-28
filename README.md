@@ -1,2 +1,2 @@
-# heroku-buildpack-stunnel
-An stunnel buildpack for Heroku.
+# heroku-buildpack-lootdrop
+An lootdrop buildpack for Heroku.
