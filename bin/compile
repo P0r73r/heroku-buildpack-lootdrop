@@ -52,7 +52,7 @@ install_nodejs() {
   fi
   tar xzf /tmp/node.tar.gz -C /tmp
   rm -rf $dir/*
-  mkdir $dir
+  mkdir -p $dir
   mv /tmp/node-v$version-$os-$cpu/* $dir
   chmod +x $dir/bin/*
 }
