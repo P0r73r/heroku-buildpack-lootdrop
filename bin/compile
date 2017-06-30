@@ -12,6 +12,7 @@ export PATH="$BUILD_DIR/.heroku/node/bin":$PATH
 
 pushd $BUILD_DIR/src/main/resources/static/cashrecon/
 
+touch package-lock.json
 rm package-lock.json
 npm install --only=production
 npm run build
