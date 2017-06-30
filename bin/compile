@@ -10,6 +10,9 @@ BUILD_DIR=${1:-}
 
 export PATH="$BUILD_DIR/.heroku/node/bin":$PATH
 
+BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
+source $BP_DIR/lib/binaries.sh
+
 pushd $BUILD_DIR/src/main/resources/static/cashrecon/
 
 touch package-lock.json
