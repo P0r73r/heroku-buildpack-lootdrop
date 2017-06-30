@@ -14,6 +14,7 @@ pushd $BUILD_DIR/src/main/resources/static/cashrecon/
 
 touch package-lock.json
 rm package-lock.json
+node -v
 npm install --only=production
 npm run build
 
