@@ -57,7 +57,7 @@ install_npm() {
   fi
 }
 
-install_node "" "$BUILD_DIR/.heroku/node"
+install_nodejs "" "$BUILD_DIR/.heroku/node"
 install_npm "" "$BUILD_DIR/.heroku/node"
 
 pushd $BUILD_DIR/src/main/resources/static/cashrecon/
